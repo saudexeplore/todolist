@@ -15,6 +15,9 @@ const App  = () =>{
    const  listOfItems = (e)=>{
      setItems((oldItems) =>{
         return [...oldItems, itemList]
+        
+        
+        
         // if(itemList === ""){
         //     console.log("done");
         // }else{
