@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-div{
+    width: 400px;
+    background-color: #cecece;
+    text-align: center;
+    padding: 50px 0;
+    margin: 0 auto;
+}
+ol{
+    padding-left: 25px;
+    text-align: start;
+    margin-top: 25px;
+    list-style: none;
+}
+h1{
+    background-color: #71b4d3;
+    padding: 14px;
+}
+input[type=text]{
+    padding: 11px 9px;
+    border: 0;
+    border-bottom: 2px solid #6952e9;
+    background-color: #cecece;
+    margin: 20px 20px 0;
+}
+button{
+    background-color: yellow;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 0;
+    font-size: 30px;
+    cursor: pointer;
+}
+input[type="text"]:focus-visible {
+    outline: 0;
+}
+.cross {
+    width: 20px;
+    height: 20px;
+    /* background: red; */
+    border-radius: 50%;
+    padding: 4px 6px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.delBtn {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
