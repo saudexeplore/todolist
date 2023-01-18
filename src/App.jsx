@@ -4,7 +4,7 @@ import ToDoLists from "./ToDoLists";
 
 const App = () => {
 
-    const [itemList, setItemList] = useState();
+    const [itemList, setItemList] = useState("");
     const [Items, setItems] = useState([]);
 
 
@@ -13,22 +13,17 @@ const App = () => {
     }
 
     const listOfItems = (e) => {
-        // setItems((oldItems) => {
-        //             return [...oldItems, itemList]
-    
-        //         })
         if (itemList === "") {
             alert("please enter a valid Name")
         } else {
             setItems((oldItems) => {
                 return [...oldItems, itemList]
-
             })
+            
         }
-
         setItemList("");
-
     }
+    
     const deleteItem = (id) => {
         setItems((oldItems) => {
             return oldItems.filter((arrElement, index) => {
