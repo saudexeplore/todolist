@@ -1,0 +1,31 @@
+.main-div {
+    width: 400px;
+    background: #c9c9c9;
+    margin: auto;
+    padding: 15px 50px;
+}
+
+.main-head {
+    display: flex;
+    padding: 16px;
+    background: #b1b7b4;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.main-head p {
+    margin: 0 12px;
+}
+
+.main-head h3 {
+    margin: 0 10px;
+}
+
+.main-div span {
+    margin: 16px 0px;
+    background: #fffcfc;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+}
